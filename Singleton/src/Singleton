@@ -1,0 +1,4 @@
+EagerMode 最开始就创建
+LazyMode 需要时才创建，synchronize方法
+DoubleCheck synchronize代码块，可能出现问题，当一个对象已经有了地址但是没有被创建完的时候就可能会返回
+InnerClass 利用虚拟机自身机制
